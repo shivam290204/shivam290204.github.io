@@ -17,8 +17,8 @@ function App() {
         with position absolute/fixed so it doesn't scroll with the page content 
       */}
       <ThreeBackground />
-      {/* Navbar fixed outside scrolling container */}
-      <div className="fixed top-0 z-50 w-full">
+      {/* Navbar at the top of the page, does not follow scroll */}
+      <div className="absolute top-0 z-50 w-full pointer-events-none">
         <Navbar />
       </div>
 

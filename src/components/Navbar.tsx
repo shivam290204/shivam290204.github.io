@@ -44,7 +44,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed top-4 sm:top-6 left-1/2 -translate-x-1/2 z-50 max-w-[96vw] transition-all duration-300 pointer-events-auto">
+    <div className="absolute top-4 sm:top-6 left-1/2 -translate-x-1/2 z-50 max-w-[96vw] transition-all duration-300 pointer-events-auto">
       {/* 3D Embossed Dock Container matching input_file_0.png exactly */}
       <nav className="flex items-center gap-2 sm:gap-2.5 py-3 px-3 sm:py-3.5 sm:px-4 rounded-[28px] bg-gradient-to-b from-slate-200 via-slate-300 to-slate-400 border border-slate-300/80 shadow-[0_14px_35px_rgba(0,0,0,0.2),inset_0_2px_4px_rgba(255,255,255,0.95),inset_0_-3px_5px_rgba(0,0,0,0.25)] backdrop-blur-md overflow-x-auto no-scrollbar">
         
